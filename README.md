@@ -169,7 +169,7 @@ sudo ./setup.sh config dkim
 sudo ./setup.sh email add emilio@example.com 12345
 ```
 ```bash
-docker-compose -f mailserver/docker-compose.yml up -d
-docker-compose -f mailserver/docker-compose.yml down
-docker-compose -f mailserver/docker-compose.yml exec sftp ls /home/foo/upload
+sudo mkdir -p /srv/sftp_data
+sudo chown 1001:1001 /srv/sftp_data
+sudo chmod 750 /srv/sftp_data
 ```
