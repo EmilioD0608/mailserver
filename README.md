@@ -161,12 +161,12 @@ volumes:
 sudo ./setup.sh config dkim
 ```
 
-```yaml
-sudo ./setup.sh email add emilio@example.com 12345
-```
 
 ```yaml
  sudo docker compose up -d
+```
+```yaml
+sudo ./setup.sh email add emilio@example.com 12345
 ```
 ```bash
 docker-compose -f mailserver/docker-compose.yml up -d
