@@ -36,10 +36,6 @@ echo \
 ```
 
 ```bash
-sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```
-
-```bash
 sudo apt-get update
 ```
 
