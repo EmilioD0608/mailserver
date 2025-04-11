@@ -62,7 +62,7 @@ cd ~/docker-mailserver
 ```
 
 ```bash
-curl -o setup.sh [https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master/setup.sh](https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master/setup.sh)
+curl -o setup.sh https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master/setup.sh
 ```
 
 ```bash
