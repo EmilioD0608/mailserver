@@ -168,3 +168,8 @@ sudo ./setup.sh email add emilio@example.com 12345
 ```yaml
  sudo docker compose up -d
 ```
+```bash
+docker-compose -f mailserver/docker-compose.yml up -d
+docker-compose -f mailserver/docker-compose.yml down
+docker-compose -f mailserver/docker-compose.yml exec sftp ls /home/foo/upload
+```
