@@ -70,7 +70,7 @@ chmod a+x setup.sh
 ```
 
 ```bash
-DMS_GITHUB_URL=[https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master](https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master)
+DMS_GITHUB_URL="https://raw.githubusercontent.com/docker-mailserver/docker-mailserver/master" 
 ```
 
 ```bash
